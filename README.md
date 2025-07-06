@@ -47,8 +47,8 @@ Example Terminal Output:
 ## NOTES
 ### Browser Configuration
 In the playwright.config.js file, tests are configured to run only on Firefox and Chrome browsers. The reason is that i don't have Safari (WebKit engine) on my Machine,
-therefore if you don't have Webkit configured as well, when you run the command "npx playwright test" and the execution befins on Firefox, Chrome and Webkit - all tests
-will fail for Webkit.
+therefore if you don't have Webkit configured as well, when you run the command "npx playwright test" and the execution begins on Firefox, Chrome and Webkit - all tests
+will fail for Webkit(only).
 
 ### How to Break Tests Intentionally to Verify Assertions:
 To verify that assertion failures are properly reported, you can intentionally break some tests:
