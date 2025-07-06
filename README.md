@@ -34,10 +34,14 @@ Example Terminal Output:
 
 3. To run tests in UI mode (with Playwright Test Runner UI):
     - npx playwright test --ui
+
+Example Terminal Output:
 ![alt text](image-1.png)
 
 4. To view the test reports after the run:
     - npx playwright show-report
+
+Example Terminal Output:
 ![alt text](image-2.png)
 
 ## NOTES
